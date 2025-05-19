@@ -7,3 +7,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : fortunearistoteaudate
 */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+input, textarea, select, button {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 400px;
+}
