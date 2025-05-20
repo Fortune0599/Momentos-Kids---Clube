@@ -1,6 +1,6 @@
 <%-- 
-    Document   : temas.jsp
-    Created on : May 19, 2025, 9:03:07 PM
+    Document   : atividades.jsp
+    Created on : May 19, 2025, 9:33:24 PM
     Author     : fortunearistoteaudate
 --%>
 
@@ -9,18 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>MKC</title>
+        <title>Festa Infantil</title>
     </head>
     <body>
-       <h2>Escolha um Tema</h2>
+         <h2>Sugestões de Atividades</h2>
     <ul>
-        <li>Tema Princesas</li>
-        <li>Tema Super-Heróis</li>
-        <li>Tema Safari</li>
-        <li>Tema Unicórnios</li>
-        <li>Tema Futebol</li>
+        <li>Pintura facial</li>
+        <li>Cama elástica</li>
+        <li>Oficina de cupcakes</li>
+        <li>Caça ao tesouro</li>
     </ul>
     <a href="index.jsp">Voltar</a>
-
     </body>
 </html>

@@ -9,14 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Festa Infantil</title>
     </head>
     <body>
        <h2>Controle de Orçamento</h2>
 <form>
-    <label>Item:</label><input type="text" /><br/>
-    <label>Valor:</label><input type="number" /><br/>
-    <button>Adicionar</button>
-</form>
+        <label>Item:</label>
+        <input type="text" placeholder="Ex: Balões" />
+
+        <label>Valor:</label>
+        <input type="number" placeholder="Ex: 50.00" />
+
+        <button type="submit">Adicionar</button>
+    </form>
+    <a href="index.jsp">Voltar</a>
     </body>
 </html>
