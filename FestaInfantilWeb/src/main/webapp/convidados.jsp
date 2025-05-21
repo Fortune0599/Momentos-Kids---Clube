@@ -4,27 +4,18 @@
     Author     : fortunearistoteaudate
 --%>
 
-<%@ page contentType="text/html;charset=UTF-8" %>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Gestão de Convidados</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/validacoes.js"></script>
-</head>
-<body>
-    <h2>Convidados</h2>
-    <form onsubmit="return validarConvidado();">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" />
+<form action="adicionarConvidado" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" />
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
 
-        <button type="submit">Adicionar Convidado</button>
-    </form>
+    <button type="submit">Adicionar</button>
+</form>
 
-    <br/>
-    <a href="index.jsp">Voltar</a>
-</body>
-</html>
+<% if ("1".equals(request.getParameter("sucesso"))) { %>
+    <p style="color: green;">Convidado adicionado com sucesso!</p>
+<% } else if ("1".equals(request.getParameter("erro"))) { %>
+    <p style="color: red;">Erro ao adicionar convidado.</p>
+<% } %>
